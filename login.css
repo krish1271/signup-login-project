@@ -12,12 +12,11 @@ body{
 }
 
 .container{
-   border: 1px solid black;
    border-radius: 15px;
    width: 350px;
-   height: 270px;
    background-color: rgba(0, 0, 0, 0.192);
    backdrop-filter: blur(7px);
+   box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.249);
 
 }
 
@@ -30,7 +29,7 @@ h1{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 35px;
-    color: rgb(42, 27, 27);
+    color: rgb(255, 255, 255);
     font-size: 40px;
 }
 
@@ -40,15 +39,21 @@ input{
     font-size: 15px;
     margin-bottom: 15px;
     border: none;
+    outline: none;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.44);
 }
 
-button{
+.submit{
     padding: 10px 50px;
     border: none;
     margin-top: 25px;
     border-radius: 20px;
+    background-color: white;
+}
+.block{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 a {
